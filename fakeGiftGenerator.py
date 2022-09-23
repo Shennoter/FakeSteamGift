@@ -1,4 +1,3 @@
-from tkinter import W
 import urllib
 import requests
 from lxml import etree
