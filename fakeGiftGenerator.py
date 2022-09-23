@@ -289,12 +289,12 @@ Steam团队                                                                     
 
 if __name__ == '__main__':
     # noreply@steampowered.com
-    reciever = '♔早坂红莉栖'
-    sender = 'SHENN0TR'
-    gameName = 'call of duty'
+    reciever = ''
+    sender = ''
+    gameName = ''
     gameNameURLcode = urllib.parse.urlencode({'':gameName})[1:]
-    senderAvatarLink = 'https://avatars.steamstatic.com/0cac452cf7eb92ec2b433680450bc394b784775d_full.jpg'
-    greeting = '屑'
+    senderAvatarLink = ''
+    greeting = ''
     gift = fakeGift(gameName, sender, senderAvatarLink, reciever, greeting)
     mailText, gameOffName = gift.generateGift()
     with open('./gift.html','w',encoding='utf-8')as f:
