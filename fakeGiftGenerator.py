@@ -281,7 +281,7 @@ Steam团队                                                                     
     </tbody></table>
 </center>
     <center style="font-family:&#39;Motiva Sans&#39;, Helvetica, Arial, sans-serif; color: #000000; font-size: 11px; margin-bottom: 4px;">
-        查看此消息时遇到问题？        <a href="https://store.steampowered.com/email/gift?sparams=eJxtUMuOwjAM_JeeV9Ckz3BCgPiBvfZiGvch0jYkDiu02n9fB7oSh83BcjwztsffiYEwtwM6elhMdkmafCQOwUyc92a5gOGCdYsOLc0wRconIUxc9cHaxRFOMBour9-9j7BdvtCh3rTLG9OPFPUDkfW7ZttsBzR28w9_bepxpkAtS0QppChllgtG-4CeLHh_xQdj2fl0UPVRnaqjOBxEyYxxvvMoZw080K1be-016CgfO0Jcq00oRNZxvBTR-YTeQx8BeH_RAu8yThyeokoVugl5V6YsVRXndadjAz_2M1Bwr96VzOpXXOeyL16K_g5tob3yuFFHi1JI9eLd0cEdCNwAfmAIZanzVHW10IVseXadFhyhE2WuMtCFSAupsorFtDwvB1o7thJtDzjPCx9jf7s9r_vzC2AyopY" style="font-family:&#39;Motiva Sans&#39;, Helvetica, Arial, sans-serif; color: #000000; font-size: 11px; margin-bottom: 4px;" rel="noopener" target="_blank">
+        查看此消息时遇到问题？        <a href="https://store.steampowered.com" style="font-family:&#39;Motiva Sans&#39;, Helvetica, Arial, sans-serif; color: #000000; font-size: 11px; margin-bottom: 4px;" rel="noopener" target="_blank">
             点击此处        </a>
     </center>'''.format(self.__sender, gameOffName.text, gameLink, gamePicLink, self.__reciever, self.__greeting, self.__senderAvatarLink, self.__sender)
         return mail, gameOffName.text
